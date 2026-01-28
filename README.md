@@ -8,19 +8,26 @@ A Python script that cleans messy sales CSV data, removes duplicates, converts p
 python main.py
 ```
 
-## The Logic (How you thought)
+##The Logic (How you thought)
+###Why did you choose this approach?
 
-### Why did you choose this approach?
-I chose a simple Python-based approach using built-in csv and json libraries to ensure the solution is lightweight, easy to understand, and runs locally without external dependencies.
+I used Python’s built-in csv and json libraries to keep the solution simple and dependency-free.
 
-### What was the hardest bug you faced, and how did you fix it?
-The hardest part was handling inconsistent price formats containing dollar signs and quotes. I fixed this by cleaning the price strings before converting them into float values.
+###What was the hardest bug you faced, and how did you fix it?
 
-## Output Screenshots
-Screenshot of the generated clean_sales.json file opened in a text editor showing the cleaned and converted data.
+Handling inconsistent price formats was challenging. I solved it by cleaning strings before conversion.
 
-## Future Improvements
-If I had two more days, I would add proper logging, validation for incorrect data entries, and unit tests to make the script more robust and production-ready.
+##Output Screenshots
+
+Screenshot of clean_sales.json showing the final cleaned data.
+
+##Future Improvements
+
+Add logging
+
+Handle large datasets
+
+Add unit tests
 
 
 
