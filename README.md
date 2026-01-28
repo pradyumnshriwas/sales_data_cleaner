@@ -20,9 +20,11 @@ Screenshot of clean_sales.json showing the final cleaned data.
 
 ## Future Improvements
 
--Add logging
--Handle large datasets
--Add unit tests
+- Add logging
+- Handle large datasets
+- Add unit tests
+
+
 
 
 
