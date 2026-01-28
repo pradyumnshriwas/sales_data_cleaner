@@ -5,7 +5,7 @@ A Python script that cleans messy sales CSV data, removes duplicates, converts p
 
 ## Setup Instructions
 ```bash
-python main.py
+python main.py```
 
 ## The Logic (How you thought)
 
@@ -20,4 +20,5 @@ Screenshot of the generated clean_sales.json file opened in a text editor showin
 
 ## Future Improvements
 If I had two more days, I would add proper logging, validation for incorrect data entries, and unit tests to make the script more robust and production-ready.
+
 
